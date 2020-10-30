@@ -1,5 +1,5 @@
 # ExtractCompetitorKeywords
-A project for finding the (organic) keywords that competitor websites are promoting.
+A project for finding the (organic) keywords competitor websites are promoting.
 
 This project is about understanding the business strategy of companies. 
 How exactly? By finding the organic keywords they atempt to be ranked for on Google i.e. appear in the top search results for queries including these keywords.
