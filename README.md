@@ -3,7 +3,7 @@ A project for finding the (organic) keywords that competitor websites are promot
 
 This project is about understanding the business strategy of companies. 
 How exactly? By finding the organic keywords they atempt to be ranked for on Google i.e. appear in the top search results for queries including these keywords.
-For this purpose I decided to focus on some well known meta tags that are known to be important for Search Engine Optimization (SEO), such as <title>, <meta description>, <h1>,
+For this purpose I decided to focus on some well known meta tags that are known to be important for Search Engine Optimization (SEO), such as title, meta description, h1,
 in addition to more sophisticated information like the 10 most common words in the text of a webpage. 
 
 There are 3 components to this task: 
