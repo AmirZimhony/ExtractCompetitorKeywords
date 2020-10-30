@@ -26,13 +26,12 @@ def GetLinks(name_of_site,base_site ,i):
     with open('solgar_articles.html', 'wb') as file:
         file.write(soup.prettify('utf-8'))
 
-    #Find all relevant pages, they are part of <h3> elements in this case
+#-----------------------SUBJECTIVE PART OF CODE : Find all relevant pages, in this case they are part of <h3> elements ----------------------
     articles= soup.find_all('h3')#subjective part of code, the relevant pages might be found in 'h2' or other HTML tags in different cases
-
+    print(len(articles))
 
     #In each <h3> element, extract the link to it's corresponding page and append it to a list
     importantLinks=[]
-    
     for article in articles:
         if article.find('a')!= None:
             importantLinks.append(urljoin(str(base_site),str(article.find('a')['href'])))#we add the extracted text to the homepage's url, in order to make it a proper URL
