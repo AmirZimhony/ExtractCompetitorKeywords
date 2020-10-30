@@ -27,3 +27,4 @@ The final output of this project is a xlsx(excel) file, containing information e
 
 3.A list of the 10 most common words on each page, including the number of occurences of each word.
 
+An examination of this output will provide you insights about the company's marketing strategy.
