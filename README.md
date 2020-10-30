@@ -7,8 +7,11 @@ For this purpose I decided to focus on some well known meta tags that are known 
 in addition to more sophisticated information like the 10 most common words in the text of a webpage. 
 
 There are 3 components to this task: 
+
 1.Finding all relevant pages on a company's website.
+
 2.Extracting the technical data from the website's pages that are supposed to be ranked for keywords. 
+
 3.Combining all the info to a file and printing the results.
 
 There are parts of this code that are subjective, and might need to be modified if you try to run this code on different websites. For example - the HTML tag used for listing
@@ -19,6 +22,8 @@ All subjective parts are noted in comments inside the code.
 The final output of this project is a xlsx(excel) file, containing information extracted from web pages on the company's website: 
 
 1.URL
-2. Various data from SEO-relevant HTML tags
-3. A list of the 10 most common words on each page, including the number of occurences of each word.
+
+2.Various data from SEO-relevant HTML tags
+
+3.A list of the 10 most common words on each page, including the number of occurences of each word.
 
