@@ -23,7 +23,7 @@ def GetLinks(name_of_site,base_site ,i):
     soup = BeautifulSoup(html, "html.parser")
     
     # Exporting the HTML to a file
-    with open('solgar_articles.html', 'wb') as file:
+    with open('site_articles.html', 'wb') as file:
         file.write(soup.prettify('utf-8'))
 
 #-----------------------SUBJECTIVE PART OF CODE : Find all relevant pages, in this case they are part of <h3> elements ----------------------
